@@ -1,0 +1,23 @@
+23:55:51,057 [9] ERROR - Usuario autorizado
+23:57:18,165 [ExamTechLog] ERROR - Usuario autorizado
+01:29:37,253 [ExamenTecnicoAcciona.UnityConfig+<>c] INFO - Usuario autorizado
+01:49:19,333 [RegisterComponents] INFO - Usuario autorizado
+09:51:37,330 [RegisterComponents] INFO - Usuario autorizado
+10:32:38,806 [ExamenTecnicoAcciona.Controllers.LoginController] INFO - Usuario autorizado
+10:55:45,175 [ExamenTecnicoAcciona.Controllers.LoginController] INFO - Usuario autorizado
+10:56:00,066 [ExamenTecnicoAcciona.Services.LoginService] WARN - Usuario no autorizado
+10:56:00,091 [ExamenTecnicoAcciona.Controllers.LoginController] INFO - Usuario no autorizado
+10:56:18,848 [ExamenTecnicoAcciona.Controllers.ProvinciaController] INFO - Se encontraron 1 provincias.
+10:57:26,888 [ExamenTecnicoAcciona.Services.DatosGobArgService] ERROR - Se produjo un error al intentar obtener lista de provincias
+System.Net.WebException: Error en el servidor remoto: (400) Solicitud incorrecta.
+   en System.Net.HttpWebRequest.GetResponse()
+   en ExamenTecnico.DataAccess.ExternalApiAccess.GetResponse(String serviceUrl) en C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\ExternalApiAccess.cs:línea 55
+   en ExamenTecnico.DataAccess.ExternalApiAccess.ObtenerResponse(List`1 parametros) en C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\ExternalApiAccess.cs:línea 24
+   en ExamenTecnicoAcciona.Services.DatosGobArgService.ObtenerResponse(String provinciaNombre) en C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnicoAcciona\Services\DatosGobArgService.cs:línea 38
+10:57:27,088 [ExamenTecnicoAcciona.Controllers.ProvinciaController] ERROR - Error al parsear respuesta de servidor
+System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: value
+   en Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   en Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   en Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   en ExamenTecnicoAcciona.Controllers.ProvinciaController.Obtener(String nombre) en C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnicoAcciona\Controllers\ProvinciaController.cs:línea 43

@@ -1,0 +1,6 @@
+C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\bin\Debug\ExamenTecnico.DataAccess.dll
+C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\bin\Debug\ExamenTecnico.DataAccess.pdb
+C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\obj\Debug\ExamenTecnico.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\obj\Debug\ExamenTecnico.DataAccess.dll
+C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\obj\Debug\ExamenTecnico.DataAccess.pdb
+C:\Users\cramirez\source\repos\ExamenTecnicoAcciona\ExamenTecnico.DataAccess\obj\Debug\ExamenTecnico.DataAccess.csprojAssemblyReference.cache
